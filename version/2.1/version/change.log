@@ -1,0 +1,75 @@
+//------------------SHIP BATTLE------------------\\
+//------------------VERSION 2.1------------------\\
+
+Author: Gabriel Rodríguez Fernández
+Released: May 15, 2015
+Previous version: 2.0
+
+
+//------------------MAIN CHANGES-----------------\\
+
+- Minor code optimization.
+
+- Additional languages are now supported:
+        + French
+        + Italian
+
+- Minor fixes.
+
+- Fixed error that caused the application to crash
+when the lang file was missing, empty or corrupted.
+Now, the game will start in English by default when
+this problem occurs, and the lang file will be fixed.
+The game will start normally the next time.
+
+- Fixed error that caused the application to crash
+when a LangResources file was missing. The game
+will now automatically start in English if this
+happens, and the user will be advised to redownload
+the game files.
+
+- Fixed error that allowed the player to attack again
+when a finished game was reloaded.
+
+- Fixed error that caused no "load game" screen to
+be created when the "saves" folder didn't exist.
+
+
+//-----------------USER SUPPORT-----------------\\
+
+- How can I translate the game into a new language?
+
+     To do so, translate a "LangResources" file and put
+   the translated file into the "rsrc" folder. The game
+   will automatically detect new languages.
+     The translated file must be named following the
+   format established below:
+	
+               LangResources_xx.properties
+			
+   where "xx" is the two letter code of the language.
+     If the game is able to detect a valid language,
+   according to the ISO 639 standard, the proper name
+   of said language will be displayed in the "Language"
+   menu of the game. If the language is not detected
+   as a valid one, the initials specified in the file
+   will be displayed instead. However, non-valid
+   languages will work anyway.
+
+
+//-----------------PROJECT USAGE----------------\\
+
+You may freely use and share all the code within
+this project, for both commercial and non-commercial
+purposes.
+
+You may not, however:
+
+- Entirely redistribute the game for commercial
+purposes.
+
+- Sell the game to others. The game is free and is
+just a practice project.
+
+- Share the entire game as if it were yours, unless
+you add major changes or take just pieces of code.

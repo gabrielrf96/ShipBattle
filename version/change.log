@@ -1,0 +1,74 @@
+﻿//------------------SHIP BATTLE------------------\\
+//------------------VERSION 2.2------------------\\
+
+Author: Gabriel Rodríguez Fernández
+Released: Jul 23, 2015
+Previous version: 2.1
+
+
+//------------------MAIN CHANGES-----------------\\
+
+- Major code optimization and reorganization.
+
+- Fixed minor errors that caused the game not to be
+able to locate resource files on GNU/Linux systems.
+
+- Fixed compatibility issues with GNU/Linux and Mac 
+OS systems.
+
+- Fix: player name now updates when a game is loaded.
+
+- Complete GUI redesign.
+
+- Game related messages now appear in a non-invasive
+way (message box), thus not bothering the player.
+
+
+//--------------GAME IMPROVEMENTS---------------\\
+
+- New game mechanics: one ship (two blocks) and three
+boats (one block) must be placed. When a position is
+attacked, the message displayed will tell you if you
+have sunk or touched a ship, or touched water.
+
+- Game difficulty levels added. Machine AI improves
+with each level of difficulty.
+
+//-----------------USER SUPPORT-----------------\\
+
+- How can I translate the game into a new language?
+
+     To do so, translate a "LangResources" file and put
+   the translated file into the "rsrc" folder. The game
+   will automatically detect new languages.
+     The translated file must be named following the
+   format established below:
+	
+               LangResources_xx.properties
+			
+   where "xx" is the two letter code of the language.
+     If the game is able to detect a valid language,
+   according to the ISO 639 standard, the proper name
+   of said language will be displayed in the "Language"
+   menu of the game. If the language is not detected
+   as a valid one, the initials specified in the file
+   will be displayed instead. However, non-valid
+   languages will work anyway.
+
+
+//-----------------PROJECT USAGE----------------\\
+
+You may freely use and share all the code within
+this project, for both commercial and non-commercial
+purposes.
+
+You may not, however:
+
+- Entirely redistribute the game for commercial
+purposes.
+
+- Sell the game to others. The game is free and is
+just a practice project.
+
+- Share the entire game as if it were yours, unless
+you add major changes or take just pieces of code.

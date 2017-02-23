@@ -1,0 +1,104 @@
+//------------------SHIP BATTLE------------------\\
+//------------------VERSION 2.0------------------\\
+
+Author: Gabriel Rodríguez Fernández
+Released: April 5, 2015
+Previous version: 1.0
+
+
+//------------------MAIN CHANGES-----------------\\
+
+- Major optimization
+
+- Added changelog
+
+- Added language support:
+        + Spanish
+        + English
+
+- Automatic language detection: makes it easier for
+users to translate the program into any language.
+
+- Added save/load game options
+
+- Fixed multiple runtime errors
+
+- Fixed error that caused a new game to be initiated 
+even though the player hit the "cancel" button on 
+the name input window.
+
+- Fixed error that broke the game when language was
+changed during a match.
+
+- Fixed error: if the player places four ships, 
+and tries to put another one in an occupied cell, 
+the game will start with the player having only 
+four ships.
+
+
+//-------------GAMEPLAY IMPROVEMENTS------------\\
+
+- Enemy sectors already attacked by the player are
+now displayed in a different color to avoid repeats.
+
+- The machine will not repeat an already attacked
+player's sector, thus making the machine a little
+bit less silly.
+
+- Action is now centered in the game window. This
+means that information dialogs and secondary screens
+(Changelog and Load Screen) will appear in the center
+of the main game window, instead of in the center of
+the screen.
+
+
+//----------------KNOWN PROBLEMS----------------\\
+
+- The game will crash if the "lang" file is missing,
+empty or corrupted.
+
+
+------------------------------------------------------------------
+ These problems are still being worked on, and 
+                          will soon be solved.             
+------------------------------------------------------------------
+
+
+//-----------------USER SUPPORT-----------------\\
+
+- How can I translate the game into a new language?
+
+     To do so, translate a "LangResources" file and put
+   the translated file into the "rsrc" folder. The game
+   will automatically detect new languages.
+     The translated file must be named following the
+   format established below:
+	
+               LangResources_xx.properties
+			
+   where "xx" is the two letter code of the language.
+     If the game is able to detect a valid language,
+   according to the ISO 639 standard, the proper name
+   of said language will be displayed in the "Language"
+   menu of the game. If the language is not detected
+   as a valid one, the initials specified in the file
+   will be displayed instead. However, non-valid
+   languages will work anyway.
+
+
+//-----------------PROJECT USAGE----------------\\
+
+You may freely use and share all the code within
+this project, for both commercial and non-commercial
+purposes.
+
+You may not, however:
+
+- Entirely redistribute the game for commercial
+purposes.
+
+- Sell the game to others. The game is free and is
+just a practice project.
+
+- Share the entire game as if it were yours, unless
+you add major changes or take just pieces of code.
